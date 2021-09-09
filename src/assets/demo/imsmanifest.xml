@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="_6K8FSJryWHe_course_id" version="1.3" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+         <metadata>
+            <schema>ADL SCORM</schema>
+            <schemaversion>CAM 1.3</schemaversion>
+            <adlcp:location>metadata.xml</adlcp:location>
+         </metadata>
+         <organizations default="Experteam_ORG">
+            <organization identifier="Experteam_ORG" adlseq:objectivesGlobalToSystem="false">
+               <title>מניעת הטרדה מינית</title>
+               <item identifier="Experteam_ORG2" identifierref="5e8ae6e94d9df1377a946047" isvisible="true">
+                  <title>מניעת הטרדה מינית</title>
+                  <imsss:sequencing>
+                     <imsss:controlMode choice="true" flow="true" />
+                     <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true" />
+                  </imsss:sequencing>
+               </item>
+               <metadata />
+               <imsss:sequencing>
+                  <imsss:controlMode choice="true" flow="true" />
+                  <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false" />
+               </imsss:sequencing>
+            </organization>
+         </organizations>
+         <resources>
+            <resource identifier="5e8ae6e94d9df1377a946047" type="webcontent" adlcp:scormType="sco" href="index.html">
+               <file href="index.html" />
+               
+            </resource>
+         </resources>
+      </manifest>
